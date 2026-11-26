@@ -1,7 +1,6 @@
-
+#Marcos Altamirano
 from dataclasses import dataclass
 from typing import Tuple
-
 
 @dataclass(frozen=True)
 class Ant:
@@ -9,7 +8,6 @@ class Ant:
     x: float
     y: float
     carrying: bool = False
-
 
 @dataclass(frozen=True)
 class GameState:
